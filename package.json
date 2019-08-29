@@ -1,6 +1,6 @@
 {
   "name": "@patomation/usetoggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hooks use Toggle",
   "main": "./lib/index.js",
   "private": false,
@@ -28,9 +28,12 @@
   },
   "homepage": "https://github.com/patomation/useToggle#readme",
   "dependencies": {
+    "@babel/preset-env": "^7.5.5",
     "react": "^16.9.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
   }
 }
