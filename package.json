@@ -1,0 +1,36 @@
+{
+  "name": "@patomation/usetoggle",
+  "version": "1.0.0",
+  "description": "React Hooks use Toggle",
+  "main": "./lib/index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --ignore \"**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patomation/useToggle.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "use",
+    "toggle",
+    "use-toggle",
+    "usetoggle",
+    "useToggle"
+  ],
+  "author": "Patrick Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patomation/useToggle/issues"
+  },
+  "homepage": "https://github.com/patomation/useToggle#readme",
+  "dependencies": {
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
