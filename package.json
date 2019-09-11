@@ -1,6 +1,6 @@
 {
   "name": "@patomation/usetoggle",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "React Hooks use Toggle",
   "main": "./lib/index.js",
   "private": false,

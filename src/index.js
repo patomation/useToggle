@@ -4,8 +4,11 @@ export default (initialBoolean = false) => {
 
   const [ boolean, setBoolean ] = useState(initialBoolean);
 
-  const toggle = () => {
-    setBoolean(!boolean);
+  const toggle = (value) => {
+    setBoolean(previousBoolean => {
+      if(typeof value === 'boolean') return value; 
+      return !previousBoolean;
+    });
   }
 
   return [
